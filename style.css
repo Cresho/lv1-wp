@@ -606,8 +606,9 @@ hr {
     }
     
     .about-me-img{
-        width:50vw;
-        height:50vh;
+        width: 45vw;
+        height: 45vh;
+        max-height: 50vh;
     }
     
     /*------------------------------------*/
@@ -697,7 +698,8 @@ hr {
     .about-img{
         margin-top: 10vh;
         width:45vw;
-        height:70vh;
+        height:45vh;
+        max-height: 50vh;
     }
     
     .about-text p{
@@ -836,13 +838,15 @@ hr {
         flex-direction: column;
         align-items: start;
         background-color: #F5FCFF;
-        width: 110%;
+        width: 100%;
         height: 110%;
         padding: 2%;
         border-radius: 10px;
         outline: darkolivegreen;
         outline-width: 2px;
         outline-style: solid;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     
     .user-container{
@@ -868,6 +872,8 @@ hr {
     .rating-img{
         width: 25vw;
         height: 5vh;
+        max-width: 30vw;
+        max-height: 10vh;
     }
     
     /*-----------------------*/
